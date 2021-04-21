@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:name_tag"
+		},
+		"title": "Tag!                   ",
+		"description": ["",{"text":"Adds the Hermitcraft tag game directly into your world.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger tg_help","color":"yellow"},{"text":" for details.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

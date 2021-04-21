@@ -1,0 +1,170 @@
+[17:31:37] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:31:38] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:31:38] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:31:38] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:31:38] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:31:38] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:31:38] [main/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, anti ghast grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, more mob heads v2.8.2.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, real time clock v1.1.0.zip, silence mobs v1.1.0.zip, tag v2.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, unlock all recipes v2.0.1.zip
+[17:31:41] [Worker-Main-4/INFO]: Loaded 7 recipes
+[17:31:42] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[17:31:42] [Worker-Main-4/INFO]: Loaded 1014 advancements
+[17:31:45] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[17:31:45] [Server thread/INFO]: Loading properties
+[17:31:45] [Server thread/INFO]: Default game type: SURVIVAL
+[17:31:45] [Server thread/INFO]: Generating keypair
+[17:31:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:31:46] [Server thread/INFO]: Using epoll channel type
+[17:31:46] [Server thread/INFO]: Preparing level "survival_world"
+[17:31:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:31:49] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:49] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:49] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:49] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:49] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:49] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:49] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:50] [Server thread/INFO]: Preparing spawn area: 0%
+[17:31:50] [Server thread/INFO]: Preparing spawn area: 63%
+[17:31:51] [Server thread/INFO]: Time elapsed: 4329 ms
+[17:31:51] [Server thread/INFO]: Done (4.623s)! For help, type "help"
+[17:32:25] [User Authenticator #1/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[17:32:26] [Server thread/INFO]: programming2550[/192.168.1.13:50797] logged in with entity id 130 at (78.14073962669437, 63.0, 324.4952135807292)
+[17:32:26] [Server thread/INFO]: programming2550 joined the game
+[17:32:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[17:32:30] [User Authenticator #2/INFO]: UUID of player Empyrae is b7db0500-9254-481b-9e15-54c85718df73
+[17:32:31] [Server thread/INFO]: Empyrae[/86.173.110.126:61746] logged in with entity id 161 at (71.24558724101408, 63.0, 311.7523234789185)
+[17:32:31] [Server thread/INFO]: Empyrae joined the game
+[17:32:51] [Server thread/INFO]: Empyrae has made the advancement [We Need to Go Deeper]
+[17:32:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2462ms or 49 ticks behind
+[17:33:11] [User Authenticator #3/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
+[17:33:11] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:62581] logged in with entity id 280 at (313.50981854677633, 50.0, 661.3000000119209)
+[17:33:11] [Server thread/INFO]: Ajlolboi61961 joined the game
+[17:33:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2912ms or 58 ticks behind
+[17:33:43] [Server thread/INFO]: <Ajlolboi61961> 75 325
+[17:36:53] [Server thread/INFO]: Ajlolboi61961 was slain by Enderman
+[17:36:59] [Server thread/INFO]: programming2550 was slain by Enderman
+[17:37:00] [Server thread/WARN]: Fetching packet for removed entity bcv['Cooked Chicken'/2071, l='ServerLevel[survival_world]', x=84.21, y=63.00, z=308.88]
+[17:39:45] [Server thread/INFO]: Empyrae was blown up by Creeper
+[17:39:47] [Server thread/INFO]: Ajlolboi61961 has made the advancement [Not Today, Thank You]
+[17:41:17] [Server thread/WARN]: Fetching packet for removed entity bcv['Cobblestone'/2909, l='ServerLevel[survival_world]', x=-31.13, y=7.48, z=304.88]
+[17:43:47] [Server thread/INFO]: <Ajlolboi61961> set me a torch sohaib
+[17:44:01] [Server thread/INFO]: <Ajlolboi61961> yea
+[17:45:04] [Server thread/INFO]: <Ajlolboi61961> OMG
+[17:46:53] [Server thread/INFO]: programming2550 has made the advancement [Ice Bucket Challenge]
+[17:47:25] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
+[17:47:25] [Server thread/INFO]: Ajlolboi61961 left the game
+[17:51:17] [Server thread/INFO]: programming2550 tried to swim in lava
+[17:51:26] [Server thread/INFO]: programming2550 was blown up by Creeper
+[17:53:17] [Server thread/INFO]: <programming2550> f
+[17:53:19] [Server thread/INFO]: <Empyrae> f
+[17:54:14] [Server thread/INFO]: programming2550 was shot by Skeleton
+[18:02:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[18:14:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[18:16:24] [Server thread/INFO]: programming2550 has made the advancement [Sweet Dreams]
+[18:17:10] [Server thread/INFO]: programming2550 lost connection: Disconnected
+[18:17:10] [Server thread/INFO]: programming2550 left the game
+[18:18:26] [User Authenticator #4/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[18:18:27] [Server thread/INFO]: programming2550[/192.168.1.13:51029] logged in with entity id 16522 at (12.428176269391853, 64.0, 358.0650389308182)
+[18:18:27] [Server thread/INFO]: programming2550 joined the game
+[18:26:03] [User Authenticator #5/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
+[18:26:03] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:63075] logged in with entity id 17899 at (12.429983895125217, 13.0, 300.5115317661356)
+[18:26:03] [Server thread/INFO]: Ajlolboi61961 joined the game
+[18:26:14] [Server thread/INFO]: <Ajlolboi61961> where we at?
+[18:26:41] [Server thread/INFO]: <Empyrae> i got us a villager
+[18:29:21] [Server thread/INFO]: <Ajlolboi61961> 38 LAPIS
+[18:29:34] [Server thread/INFO]: <Empyrae> nice
+[18:29:51] [Server thread/INFO]: Empyrae has made the advancement [What a Deal!]
+[18:30:00] [Server thread/INFO]: <Empyrae> we have mending for 28 emeralds
+[18:30:20] [Server thread/INFO]: <Ajlolboi61961> can i have a book?
+[18:30:34] [Server thread/INFO]: <Empyrae> we only have 8
+[18:30:38] [Server thread/INFO]: <Ajlolboi61961> oof
+[18:30:40] [Server thread/INFO]: <Empyrae> emeralds
+[18:31:49] [Server thread/INFO]: <Empyrae> brb
+[18:31:51] [Server thread/INFO]: Empyrae lost connection: Disconnected
+[18:31:51] [Server thread/INFO]: Empyrae left the game
+[18:32:41] [Server thread/INFO]: <programming2550> can you talk aj
+[18:32:44] [Server thread/INFO]: <Ajlolboi61961> no
+[18:32:47] [Server thread/INFO]: <programming2550> kk
+[18:33:42] [Server thread/INFO]: <programming2550> the librarian is at my house if you need it
+[18:33:49] [Server thread/INFO]: <programming2550> do you have food?
+[18:34:35] [Server thread/INFO]: <Ajlolboi61961> 43 iron in furnace
+[18:34:41] [Server thread/INFO]: <programming2550> nice
+[18:35:18] [User Authenticator #6/INFO]: UUID of player Empyrae is b7db0500-9254-481b-9e15-54c85718df73
+[18:35:18] [Server thread/INFO]: Empyrae[/86.173.110.126:62356] logged in with entity id 19469 at (20.2914878184191, 63.0, 349.9821082407666)
+[18:35:18] [Server thread/INFO]: Empyrae joined the game
+[18:35:31] [Server thread/INFO]: <Empyrae> bacl
+[18:35:43] [Server thread/INFO]: Ajlolboi61961 has made the advancement [We Need to Go Deeper]
+[18:36:15] [Server thread/INFO]: <Empyrae> yea our nether spanw is trasj
+[18:36:19] [Server thread/INFO]: <Ajlolboi61961> pretty trashh ngl
+[18:36:58] [Server thread/INFO]: <Ajlolboi61961> i'm gonna make a cow farm for food and xp
+[18:37:06] [Server thread/INFO]: <Empyrae> yea we neecows
+[18:37:11] [Server thread/INFO]: <programming2550> good luck finding a cow
+[18:37:11] [Server thread/INFO]: <Empyrae> and for leather
+[18:37:20] [Server thread/INFO]: <Ajlolboi61961> ahh do u have food?
+[18:37:37] [Server thread/INFO]: <Ajlolboi61961> thx
+[18:38:19] [Server thread/INFO]: <Empyrae> cook teh raw food
+[18:38:21] [Server thread/INFO]: <Empyrae> i gave u
+[18:40:59] [Server thread/INFO]: <Ajlolboi61961> sohaib, where is ur house?
+[18:41:13] [Server thread/INFO]: <Empyrae> over the river
+[18:41:17] [Server thread/INFO]: <Empyrae> also cook the raw food
+[18:41:19] [Server thread/INFO]: <Empyrae> u have
+[18:41:19] [Server thread/INFO]: <programming2550> where i am
+[18:41:33] [Server thread/INFO]: <programming2550> across the lake
+[18:45:27] [Server thread/INFO]: <Ajlolboi61961> cool house
+[18:45:37] [Server thread/INFO]: <programming2550> it is still in development
+[18:47:04] [Server thread/INFO]: <Ajlolboi61961> i'm building the cow farm right here
+[18:47:23] [Server thread/INFO]: <Empyrae> we need cow
+[18:47:27] [Server thread/INFO]: <Empyrae> well 2
+[18:47:29] [Server thread/INFO]: <Ajlolboi61961> ikik
+[18:47:30] [Server thread/INFO]: <programming2550> ill help ya
+[18:48:59] [Server thread/INFO]: <Empyrae> I FOUND A COW
+[18:49:07] [Server thread/INFO]: <Empyrae> 2 cow spotted
+[18:49:19] [Server thread/INFO]: <Empyrae> got no wheat
+[18:50:15] [Server thread/INFO]: <Empyrae> idk how i' gonna transport him
+[18:50:34] [Server thread/INFO]: <Ajlolboi61961> nah its fine, leave them, i'll get them when i need them lol
+[18:50:59] [Server thread/INFO]: <Empyrae> -36
+[18:51:02] [Server thread/INFO]: <Empyrae> 282
+[18:51:05] [Server thread/INFO]: <Empyrae> for a cow
+[18:51:06] [Server thread/INFO]: <Ajlolboi61961> instead, we need to get quartz in the the nether for observer
+[18:51:12] [Server thread/INFO]: <Empyrae> oki
+[18:52:30] [Server thread/INFO]: <Ajlolboi61961> stay away from the hoglins, they do a lot of damage
+[18:52:34] [Server thread/INFO]: <Empyrae> ik
+[18:52:54] [Server thread/INFO]: <programming2550> do you have a nametag
+[18:53:36] [Server thread/INFO]: <Ajlolboi61961> how much do u have?
+[18:53:43] [Server thread/INFO]: <Empyrae> u picked them up
+[18:53:53] [Server thread/INFO]: <Ajlolboi61961> 5, thats enough lol
+[18:53:59] [Server thread/INFO]: <Empyrae> ok
+[19:02:31] [Server thread/INFO]: <Ajlolboi61961> does anyone have string?
+[19:02:36] [Server thread/INFO]: <programming2550> ye
+[19:02:50] [Server thread/INFO]: <programming2550> i lost it
+[19:03:12] [Server thread/INFO]: <programming2550> can i have some lazuli
+[19:03:18] [Server thread/INFO]: <Ajlolboi61961> yeah, how many?
+[19:03:30] [Server thread/INFO]: <programming2550> nvm
+[19:03:35] [Server thread/INFO]: <Ajlolboi61961> lol ok
+[19:03:59] [Server thread/INFO]: <Ajlolboi61961> dont enchanct unless ur lvl 30
+[19:04:24] [Server thread/INFO]: <Ajlolboi61961> lvl 30 gives u best enchants
+[19:04:42] [Server thread/INFO]: <Ajlolboi61961> thats why, lemme build the cow farm first so we have infinte food, leather and xp
+[19:05:16] [Server thread/INFO]: <Ajlolboi61961> and btw do you have any more string?
+[19:06:18] [Server thread/INFO]: <Ajlolboi61961> are u ok?
+[19:06:28] [Server thread/INFO]: <programming2550> need food
+[19:08:18] [Server thread/INFO]: <programming2550> ill leave but ill keep the server on
+[19:08:19] [Server thread/INFO]: programming2550 lost connection: Disconnected
+[19:08:19] [Server thread/INFO]: programming2550 left the game
+[19:09:45] [Server thread/INFO]: Empyrae lost connection: Disconnected
+[19:09:45] [Server thread/INFO]: Empyrae left the game
+[19:09:58] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
+[19:09:58] [Server thread/INFO]: Ajlolboi61961 left the game
+[19:14:04] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[19:14:04] [Server thread/INFO]: /op<--[HERE]
+[19:19:05] [Server thread/INFO]: Stopping server
+[19:19:05] [Server thread/INFO]: Saving players
+[19:19:05] [Server thread/INFO]: Saving worlds
+[19:19:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_world]'/minecraft:overworld
+[19:19:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_world): All chunks are saved
+[19:19:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_world]'/minecraft:the_nether
+[19:19:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:19:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_world]'/minecraft:the_end
+[19:19:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:19:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_world): All chunks are saved
+[19:19:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:19:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

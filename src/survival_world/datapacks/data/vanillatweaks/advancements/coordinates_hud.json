@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:compass"
+		},
+		"title": "Coordinates HUD",
+		"description": ["",{"text":"Adds information to your actionbar. XYZ Coords and a 24hr clock.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger ch_help","color":"yellow"},{"text":" for config.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

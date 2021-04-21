@@ -1,0 +1,6 @@
+{
+	"values": [
+		"coordinates_hud:load",
+		"coordinates_hud:tick"
+	]
+}
