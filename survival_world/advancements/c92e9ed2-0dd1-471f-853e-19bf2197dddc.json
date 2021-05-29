@@ -263,6 +263,12 @@
     },
     "done": true
   },
+  "vanillatweaks:spectator_night_vision": {
+    "criteria": {
+      "tick": "2021-05-29 10:58:48 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_terracotta": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:01:17 +0100"
@@ -1244,7 +1250,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2021-04-07 16:58:51 +0100",
-      "minecraft:soul_sand_valley": "2021-04-16 16:35:02 +0100"
+      "minecraft:soul_sand_valley": "2021-04-16 16:35:02 +0100",
+      "minecraft:nether_wastes": "2021-05-29 18:05:01 +0100"
     },
     "done": false
   },
@@ -1605,6 +1612,12 @@
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:01:18 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:confetti_creepers": {
+    "criteria": {
+      "tick": "2021-05-29 10:58:48 +0100"
     },
     "done": true
   },
@@ -2904,6 +2917,12 @@
     },
     "done": true
   },
+  "terracotta_wrench:recipes/tools/wrench": {
+    "criteria": {
+      "has_the_recipe": "2021-05-29 10:58:51 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:01:17 +0100"
@@ -2949,6 +2968,12 @@
   "minecraft:recipes/building_blocks/stripped_birch_wood": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:01:18 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:redstone_wrench": {
+    "criteria": {
+      "tick": "2021-05-29 10:58:48 +0100"
     },
     "done": true
   },
@@ -3229,6 +3254,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:01:17 +0100"
+    },
+    "done": true
+  },
+  "redstone_wrench:recipes/tools/wrench": {
+    "criteria": {
+      "has_the_recipe": "2021-05-29 10:58:51 +0100"
     },
     "done": true
   },
@@ -3776,6 +3807,8 @@
     "criteria": {
       "minecraft:forest": "2021-04-06 16:01:16 +0100",
       "minecraft:mountains": "2021-04-07 16:40:05 +0100",
+      "minecraft:taiga": "2021-05-29 20:08:57 +0100",
+      "minecraft:snowy_tundra": "2021-05-29 20:13:53 +0100",
       "minecraft:desert": "2021-04-13 16:00:05 +0100",
       "minecraft:birch_forest": "2021-04-06 16:16:25 +0100",
       "minecraft:warm_ocean": "2021-04-16 16:28:07 +0100",
@@ -3793,6 +3826,12 @@
       "minecraft:plains": "2021-04-07 16:41:18 +0100"
     },
     "done": false
+  },
+  "vanillatweaks:terracotta_wrench": {
+    "criteria": {
+      "tick": "2021-05-29 10:58:48 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/cut_red_sandstone": {
     "criteria": {
@@ -4800,6 +4839,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:01:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2021-05-29 20:19:21 +0100"
     },
     "done": true
   },

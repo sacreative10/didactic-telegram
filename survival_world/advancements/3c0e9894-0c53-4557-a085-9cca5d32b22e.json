@@ -269,6 +269,12 @@
     },
     "done": true
   },
+  "vanillatweaks:spectator_night_vision": {
+    "criteria": {
+      "tick": "2021-05-29 11:25:20 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_terracotta": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
@@ -710,6 +716,12 @@
   "minecraft:recipes/decorations/blue_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2021-05-29 12:56:21 +0100"
     },
     "done": true
   },
@@ -1244,7 +1256,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2021-04-06 18:35:44 +0100",
-      "minecraft:soul_sand_valley": "2021-04-16 16:48:54 +0100"
+      "minecraft:soul_sand_valley": "2021-04-16 16:48:54 +0100",
+      "minecraft:nether_wastes": "2021-05-29 19:07:07 +0100"
     },
     "done": false
   },
@@ -1605,6 +1618,12 @@
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:confetti_creepers": {
+    "criteria": {
+      "tick": "2021-05-29 11:25:20 +0100"
     },
     "done": true
   },
@@ -2911,6 +2930,13 @@
     },
     "done": true
   },
+  "terracotta_wrench:recipes/tools/wrench": {
+    "criteria": {
+      "has_iron": "2021-05-29 11:25:20 +0100",
+      "has_the_recipe": "2021-05-29 11:25:21 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
@@ -2956,6 +2982,12 @@
   "minecraft:recipes/building_blocks/stripped_birch_wood": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:redstone_wrench": {
+    "criteria": {
+      "tick": "2021-05-29 11:25:20 +0100"
     },
     "done": true
   },
@@ -3184,11 +3216,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2021-04-11 15:35:29 +0100",
+      "minecraft:blaze": "2021-05-29 20:31:54 +0100",
       "minecraft:skeleton": "2021-04-06 17:39:54 +0100",
+      "minecraft:ghast": "2021-05-29 19:03:41 +0100",
       "minecraft:hoglin": "2021-04-11 17:34:06 +0100",
       "minecraft:spider": "2021-04-07 11:59:15 +0100",
       "minecraft:creeper": "2021-04-11 20:02:06 +0100",
       "minecraft:zombified_piglin": "2021-04-10 15:53:53 +0100",
+      "minecraft:wither_skeleton": "2021-05-29 19:21:08 +0100",
       "minecraft:piglin": "2021-04-12 13:00:51 +0100",
       "minecraft:enderman": "2021-04-10 16:07:42 +0100",
       "minecraft:silverfish": "2021-04-13 18:39:47 +0100",
@@ -3231,6 +3266,13 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
+    },
+    "done": true
+  },
+  "redstone_wrench:recipes/tools/wrench": {
+    "criteria": {
+      "has_iron": "2021-05-29 11:25:20 +0100",
+      "has_the_recipe": "2021-05-29 11:25:21 +0100"
     },
     "done": true
   },
@@ -3784,6 +3826,7 @@
     "criteria": {
       "minecraft:forest": "2021-04-06 16:16:19 +0100",
       "minecraft:mountains": "2021-04-06 17:19:40 +0100",
+      "minecraft:taiga": "2021-05-29 14:11:13 +0100",
       "minecraft:birch_forest": "2021-04-06 16:17:58 +0100",
       "minecraft:warm_ocean": "2021-04-06 17:20:01 +0100",
       "minecraft:deep_lukewarm_ocean": "2021-04-08 13:20:27 +0100",
@@ -3798,6 +3841,12 @@
       "minecraft:plains": "2021-04-13 14:36:27 +0100"
     },
     "done": false
+  },
+  "vanillatweaks:terracotta_wrench": {
+    "criteria": {
+      "tick": "2021-05-29 11:25:20 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/cut_red_sandstone": {
     "criteria": {
