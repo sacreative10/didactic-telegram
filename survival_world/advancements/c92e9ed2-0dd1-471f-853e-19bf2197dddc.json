@@ -4974,6 +4974,12 @@
     },
     "done": true
   },
+  "vanillatweaks:homes": {
+    "criteria": {
+      "tick": "2021-05-30 10:19:45 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:01:18 +0100"

@@ -1,575 +1,647 @@
-[10:57:29] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10:57:29] [main/INFO]: Found new data pack file/confetti creepers v2.2.0.zip, loading it automatically
-[10:57:29] [main/INFO]: Found new data pack file/redstone rotation wrench v1.1.1.zip, loading it automatically
-[10:57:29] [main/INFO]: Found new data pack file/spectator night vision v1.1.0.zip, loading it automatically
-[10:57:29] [main/INFO]: Found new data pack file/terracotta rotation wrench v1.1.1.zip, loading it automatically
-[10:57:31] [main/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, anti ghast grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, more mob heads v2.8.2.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, real time clock v1.1.0.zip, silence mobs v1.1.0.zip, tag v2.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, unlock all recipes v2.0.1.zip, bukkit, graves v2.8.0.zip, confetti creepers v2.2.0.zip, redstone rotation wrench v1.1.1.zip, spectator night vision v1.1.0.zip, terracotta rotation wrench v1.1.1.zip
-[10:57:34] [Worker-Main-6/INFO]: Loaded 7 recipes
-[10:57:34] [Worker-Main-6/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[10:57:37] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[10:57:37] [Server thread/INFO]: Loading properties
-[10:57:38] [Server thread/INFO]: This server is running CraftBukkit version 3087-Spigot-9fb885e-a0149bf (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[10:57:38] [Server thread/INFO]: Debug logging is disabled
-[10:57:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:57:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:57:38] [Server thread/INFO]: Default game type: SURVIVAL
-[10:57:38] [Server thread/INFO]: Generating keypair
-[10:57:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:57:39] [Server thread/INFO]: Using epoll channel type
-[10:57:42] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.2.1-SNAPSHOT
-[10:57:42] [Server thread/INFO]: [Vivecraft] Loading Vivecraft-Spigot-Extensions v1.16.5-r1
-[10:57:42] [Server thread/INFO]: Preparing level "survival_world"
-[10:57:42] [Server thread/INFO]: -------- World Settings For [survival_world] --------
-[10:57:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:57:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:57:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:57:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:57:42] [Server thread/INFO]: Max TNT Explosions: 100
-[10:57:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:57:42] [Server thread/INFO]: Mob Spawn Range: 6
-[10:57:42] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:57:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:57:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
-[10:57:42] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:57:42] [Server thread/INFO]: View Distance: 5
-[10:57:42] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:57:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:57:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:57:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:57:43] [Server thread/INFO]: -------- World Settings For [survival_world_nether] --------
-[10:57:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:57:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:57:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:57:43] [Server thread/INFO]: Max TNT Explosions: 100
-[10:57:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:57:43] [Server thread/INFO]: Mob Spawn Range: 6
-[10:57:43] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:57:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:57:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
-[10:57:43] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:57:43] [Server thread/INFO]: View Distance: 5
-[10:57:43] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:57:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:57:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:57:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:57:43] [Server thread/INFO]: -------- World Settings For [survival_world_the_end] --------
-[10:57:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:57:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:57:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:57:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:57:43] [Server thread/INFO]: Max TNT Explosions: 100
-[10:57:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:57:43] [Server thread/INFO]: Mob Spawn Range: 6
-[10:57:43] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:57:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:57:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
-[10:57:43] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:57:43] [Server thread/INFO]: View Distance: 5
-[10:57:43] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:57:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:57:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:57:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:57:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:57:46] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:46] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:46] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:46] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:46] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:46] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:46] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:46] [Server thread/INFO]: Preparing spawn area: 11%
-[10:57:47] [Server thread/INFO]: Time elapsed: 4302 ms
-[10:57:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:57:49] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:49] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:49] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:49] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:49] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:50] [Worker-Main-5/INFO]: Preparing spawn area: 88%
-[10:57:50] [Worker-Main-5/INFO]: Preparing spawn area: 88%
-[10:57:51] [Worker-Main-7/INFO]: Preparing spawn area: 88%
-[10:57:51] [Worker-Main-5/INFO]: Preparing spawn area: 88%
-[10:57:52] [Worker-Main-7/INFO]: Preparing spawn area: 88%
-[10:57:52] [Worker-Main-5/INFO]: Preparing spawn area: 88%
-[10:57:53] [Worker-Main-8/INFO]: Preparing spawn area: 88%
-[10:57:53] [Worker-Main-8/INFO]: Preparing spawn area: 88%
-[10:57:54] [Worker-Main-7/INFO]: Preparing spawn area: 88%
-[10:57:54] [Worker-Main-8/INFO]: Preparing spawn area: 89%
-[10:57:55] [Worker-Main-8/INFO]: Preparing spawn area: 91%
-[10:57:55] [Worker-Main-5/INFO]: Preparing spawn area: 93%
-[10:57:56] [Server thread/INFO]: Preparing spawn area: 93%
-[10:57:56] [Worker-Main-8/INFO]: Preparing spawn area: 99%
-[10:57:56] [Server thread/INFO]: Time elapsed: 9115 ms
-[10:57:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:57:57] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:57] [Server thread/INFO]: Preparing spawn area: 0%
-[10:57:57] [Worker-Main-7/INFO]: Preparing spawn area: 83%
-[10:57:58] [Worker-Main-8/INFO]: Preparing spawn area: 83%
-[10:57:58] [Worker-Main-8/INFO]: Preparing spawn area: 85%
-[10:57:59] [Server thread/INFO]: Time elapsed: 2322 ms
-[10:57:59] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.2.1-SNAPSHOT
-[10:58:00] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[10:58:00] [Server thread/INFO]: [Geyser-Spigot] 
-[10:58:00] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.2.1-SNAPSHOT (git-master-4734ce2)
-[10:58:00] [Server thread/INFO]: [Geyser-Spigot] 
-[10:58:00] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[10:58:12] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[10:58:12] [Server thread/INFO]: [Geyser-Spigot] Done (11.783s)! Run /geyser help for help!
-[10:58:12] [Server thread/INFO]: [Vivecraft] Enabling Vivecraft-Spigot-Extensions v1.16.5-r1
-[10:58:16] [Server thread/ERROR]: [Vivecraft] Vault not found, permissions groups will not be set
-[10:58:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:58:16] [Server thread/INFO]: Done (34.211s)! For help, type "help"
-[10:58:16] [Craft Scheduler Thread - 0/INFO]: [Vivecraft] Version: 1.16.5-r1
-[10:58:16] [Craft Scheduler Thread - 0/INFO]: [Vivecraft] Checking for update...
-[10:58:17] [Craft Scheduler Thread - 0/INFO]: [Vivecraft] VSE is up to date.
-[10:58:46] [User Authenticator #1/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
-[10:58:47] [Server thread/INFO]: programming2550[/192.168.1.13:62204] logged in with entity id 255 at ([survival_world]18.30000001192094, 63.0, 357.0192730014725)
-[10:59:23] [Server thread/INFO]: programming2550 issued server command: /trigger cftCreep
-[10:59:23] [Server thread/INFO]: [programming2550: Triggered [Confetti Creepers]]
-[11:07:43] [Server thread/INFO]: programming2550 was slain by Zombie
-[11:20:28] [Server thread/INFO]: programming2550 lost connection: Disconnected
-[11:20:28] [Server thread/INFO]: programming2550 left the game
-[11:25:19] [User Authenticator #2/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
-[11:25:20] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:57626] logged in with entity id 1401 at ([survival_world]43.5, 63.0, 338.5)
-[11:25:28] [User Authenticator #3/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
-[11:25:28] [Server thread/INFO]: programming2550[/192.168.1.13:62635] logged in with entity id 1423 at ([survival_world]85.36056097609003, 63.0, 325.34456875674067)
-[11:25:31] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> hi[m
-[11:25:39] [Async Chat Thread - #0/INFO]: <programming2550> hello there[m
-[11:25:54] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> there's 3 skellys on kai's house lmao[m
-[11:25:58] [Async Chat Thread - #0/INFO]: <programming2550> lol[m
-[11:26:43] [Async Chat Thread - #0/INFO]: <programming2550> are they still there[m
-[11:26:52] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> nein[m
-[11:26:54] [Async Chat Thread - #0/INFO]: <programming2550> k[m
-[11:27:21] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> nice skin[m
-[11:28:15] [Async Chat Thread - #0/INFO]: <programming2550> also[m
-[11:28:25] [Async Chat Thread - #0/INFO]: <programming2550> there is this command you can use[m
-[11:28:36] [Async Chat Thread - #0/INFO]: <programming2550> if you need to link up nether portals[m
-[11:28:42] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> what's that?[m
-[11:29:01] [Server thread/INFO]: programming2550 issued server command: /trigger nc_inNether
-[11:29:01] [Server thread/INFO]: [programming2550: Triggered [Get portal coords for the Overworld]]
-[11:29:09] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> k[m
-[11:29:16] [Server thread/INFO]: programming2550 issued server command: /trigger nc-portal
-[11:29:27] [Async Chat Thread - #0/INFO]: <programming2550> ye do /trigger first[m
-[11:29:40] [Async Chat Thread - #0/INFO]: <programming2550> then it is smthing to do with nc-portal[m
-[11:29:56] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> u want cords for portal?[m
-[11:30:01] [Async Chat Thread - #0/INFO]: <programming2550> which one[m
-[11:30:04] [Async Chat Thread - #0/INFO]: <programming2550> i am at home[m
-[11:30:07] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> k nvm[m
-[11:30:14] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> lol[m
-[11:30:23] [Async Chat Thread - #0/INFO]: <programming2550> ill help you with the sucide mission[m
-[11:30:35] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> k i need pistons[m
-[11:30:45] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> loads, and a sticky piston, and tnt[m
-[11:30:50] [Async Chat Thread - #0/INFO]: <programming2550> k[m
-[11:31:17] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> i havent got slime for sticky piston,u got any?[m
-[11:31:28] [Async Chat Thread - #0/INFO]: <programming2550> no doz[m
-[11:31:31] [Async Chat Thread - #0/INFO]: <programming2550> soz[m
-[11:31:35] [Async Chat Thread - #0/INFO]: <programming2550> i gt a tnt tho[m
-[11:31:48] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> ook k we need slime for picky piston[m
-[11:31:57] [Async Chat Thread - #0/INFO]: <programming2550> ok[m
-[11:31:59] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> if u see a wnadering villager, kill it[m
-[11:32:48] [Async Chat Thread - #0/INFO]: <programming2550> thought you had some[m
-[11:32:56] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> slime?[m
-[11:32:58] [Async Chat Thread - #0/INFO]: <programming2550> ye[m
-[11:33:06] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> lemme check[m
-[11:33:19] [Async Chat Thread - #0/INFO]: <programming2550> gtg for 10 min[m
-[11:33:22] [Async Chat Thread - #0/INFO]: <Ajlolboi61961> k cya[m
-[11:33:24] [Async Chat Thread - #0/INFO]: <programming2550> cya[m
-[11:33:30] [Server thread/INFO]: programming2550 lost connection: Disconnected
-[11:33:30] [Server thread/INFO]: programming2550 left the game
-[11:40:52] [Async Chat Thread - #1/INFO]: <Ajlolboi61961> 12, 367[m
-[12:02:33] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[12:03:19] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[12:03:44] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[12:03:58] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[12:03:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[12:04:02] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[12:04:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[12:04:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[12:05:55] [User Authenticator #4/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
-[12:05:55] [Server thread/INFO]: programming2550[/192.168.1.13:62995] logged in with entity id 5678 at ([survival_world]38.346046987291416, 63.0, 346.8340696999001)
-[12:05:58] [Async Chat Thread - #2/INFO]: <Ajlolboi61961> hi[m
-[12:05:59] [Async Chat Thread - #2/INFO]: <programming2550> hallo[m
-[12:06:35] [Async Chat Thread - #2/INFO]: <Ajlolboi61961> i'm tryna solve the pumpkin and cane overflowing problem[m
-[12:07:13] [Async Chat Thread - #2/INFO]: <programming2550> lol dont do anthing about it[m
-[12:07:17] [Async Chat Thread - #2/INFO]: <Ajlolboi61961> k[m
-[12:07:23] [Async Chat Thread - #2/INFO]: <Ajlolboi61961> u sure?[m
-[12:07:25] [Async Chat Thread - #2/INFO]: <programming2550> ye[m
-[12:07:28] [Async Chat Thread - #2/INFO]: <Ajlolboi61961> k[m
-[12:12:56] [Async Chat Thread - #3/INFO]: <programming2550> anyway i gtg in a but[m
-[12:13:00] [Async Chat Thread - #3/INFO]: <programming2550> bit[m
-[12:13:27] [Server thread/INFO]: programming2550 issued server command: /trigger rc_display
-[12:13:27] [Server thread/INFO]: [programming2550: Triggered [show clock display]]
-[12:13:39] [Server thread/INFO]: programming2550 lost connection: Disconnected
-[12:13:39] [Server thread/INFO]: programming2550 left the game
-[12:13:58] [Server thread/INFO]: Ajlolboi61961 was slain by Enderman
-[12:20:15] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[12:20:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[12:20:16] [Server thread/INFO]: w<--[HERE]
-[12:20:42] [Server thread/INFO]: You whisper to Ajlolboi61961: wow epic serverinit?
-[12:20:48] [Async Chat Thread - #4/INFO]: <Ajlolboi61961> lmao yes[m
-[12:20:59] [Server thread/INFO]: You whisper to Ajlolboi61961: waw
-[12:21:07] [Server thread/INFO]: You whisper to Ajlolboi61961: anyway have a nice time
-[12:21:11] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[12:21:21] [Async Chat Thread - #4/INFO]: <Ajlolboi61961> k thx[m
-[12:35:14] [Server thread/INFO]: Ajlolboi61961 issued server command: /trigger
-[12:37:20] [Network Listener - #1/INFO]: [Geyser-Spigot] /217.137.43.156:23257 tried to connect!
-[12:37:22] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username kaiolen
-[12:37:48] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /217.137.43.156 has disconnected for reason CLOSED_BY_REMOTE_PEER
-[12:56:03] [Server thread/INFO]: Ajlolboi61961 was slain by Wolf
-[12:56:21] [Server thread/INFO]: Ajlolboi61961 has made the advancement [Best Friends Forever]
-[12:59:31] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
-[12:59:31] [Server thread/INFO]: Ajlolboi61961 left the game
-[13:22:28] [User Authenticator #5/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
-[13:22:28] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:58555] logged in with entity id 12624 at ([survival_world]43.34078457333107, 63.0, 338.30000001192093)
-[13:59:12] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
-[13:59:12] [Server thread/INFO]: Ajlolboi61961 left the game
-[13:59:22] [User Authenticator #6/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
-[13:59:22] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:58914] logged in with entity id 17602 at ([survival_world_nether]2.699999988079071, 124.27234546185265, -33.338713188125375)
-[14:05:07] [Server thread/INFO]: Ajlolboi61961 blew up
-[14:11:44] [Async Chat Thread - #5/INFO]: <Ajlolboi61961> -2 71 -291[m
-[14:30:43] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
-[14:30:43] [Server thread/INFO]: Ajlolboi61961 left the game
-[14:43:20] [User Authenticator #7/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
-[14:43:20] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:59649] logged in with entity id 19992 at ([survival_world]36.63088137174442, 63.0, 345.92909467661843)
-[15:00:45] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
-[15:00:45] [Server thread/INFO]: Ajlolboi61961 left the game
-[15:55:02] [User Authenticator #8/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
-[15:55:03] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:60409] logged in with entity id 21439 at ([survival_world]46.829267166702465, 63.0, 343.2906531775109)
-[16:15:38] [Server thread/INFO]: Ajlolboi61961 was slain by Zombie Villager
-[16:16:05] [Server thread/INFO]: Ajlolboi61961 was slain by Zombie Villager
-[16:30:55] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
-[16:30:55] [Server thread/INFO]: Ajlolboi61961 left the game
-[16:36:21] [Network Listener - #1/INFO]: [Geyser-Spigot] /80.2.20.143:20184 tried to connect!
-[16:36:22] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username kaiolen
-[16:37:00] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /80.2.20.143 has disconnected for reason CLOSED_BY_REMOTE_PEER
-[18:03:18] [User Authenticator #9/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
-[18:03:18] [Server thread/INFO]: programming2550[/192.168.1.13:55834] logged in with entity id 25715 at ([survival_world]43.29615342878945, 63.0, 346.57700577115855)
-[18:04:25] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
-[18:04:25] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
-[18:05:25] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
-[18:05:25] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
-[18:22:03] [Server thread/INFO]: programming2550 was slain by Zombie
-[18:30:01] [Server thread/INFO]: programming2550 lost connection: Disconnected
-[18:30:01] [Server thread/INFO]: programming2550 left the game
-[18:32:13] [User Authenticator #10/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
-[18:32:14] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:63585] logged in with entity id 27706 at ([survival_world]49.69999998807907, 63.0, 352.68992770300866)
-[18:41:14] [Server thread/INFO]: Ajlolboi61961 was slain by Zombie
-[18:41:31] [Server thread/INFO]: Ajlolboi61961 was slain by Zombie
-[18:43:53] [Server thread/INFO]: Ajlolboi61961 was slain by Drowned
-[19:07:35] [Server thread/INFO]: Ajlolboi61961 issued server command: /see
-[19:07:37] [Server thread/INFO]: Ajlolboi61961 issued server command: /seed
-[19:09:08] [Server thread/INFO]: Ajlolboi61961 issued server command: /seed
-[19:24:31] [Server thread/INFO]: Ajlolboi61961 was burnt to a crisp whilst fighting Blaze
-[19:28:00] [Server thread/INFO]: Ajlolboi61961 was slain by Wither Skeleton
-[19:29:54] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
-[19:29:54] [Server thread/INFO]: Ajlolboi61961 left the game
-[19:34:29] [User Authenticator #11/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
-[19:34:29] [Server thread/INFO]: programming2550[/192.168.1.13:60112] logged in with entity id 32963 at ([survival_world]69.1282203033516, 63.0, 310.82026007865136)
-[19:57:43] [Async Chat Thread - #6/INFO]: <programming2550> programming2550[m
-[20:02:49] [Server thread/INFO]: programming2550 issued server command: /xp add programming2550 1000
-[20:02:49] [Server thread/INFO]: [programming2550: Gave 1000 experience points to programming2550]
-[20:05:03] [Server thread/INFO]: programming2550 issued server command: /give programming2550 minecraft:cobblestone_stairs 128
-[20:05:03] [Server thread/INFO]: [programming2550: Gave 128 [Cobblestone Stairs] to programming2550]
-[20:10:49] [Server thread/INFO]: programming2550 issued server command: /trigger nc_inNether
-[20:10:49] [Server thread/INFO]: [programming2550: Triggered [Get portal coords for the Overworld]]
-[20:11:08] [Server thread/INFO]: programming2550 issued server command: /give programming2550 minecraft:obsidian 20
-[20:11:08] [Server thread/INFO]: [programming2550: Gave 20 [Obsidian] to programming2550]
-[20:13:02] [Server thread/INFO]: programming2550 issued server command: /gamemode creative
-[20:13:02] [Server thread/INFO]: [programming2550: Set own game mode to Creative Mode]
-[20:13:15] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
-[20:13:15] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
-[20:13:17] [Server thread/INFO]: programming2550 issued server command: /gamemode creative
-[20:13:17] [Server thread/INFO]: [programming2550: Set own game mode to Creative Mode]
-[20:13:24] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
-[20:13:24] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
-[20:13:39] [Server thread/INFO]: programming2550 issued server command: /give programming2550 minecraft:flint_and_steel
-[20:13:39] [Server thread/INFO]: [programming2550: Gave 1 [Flint and Steel] to programming2550]
-[20:14:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13913ms or 278 ticks behind
-[20:14:44] [User Authenticator #12/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
-[20:14:44] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:50669] logged in with entity id 36603 at ([survival_world_nether]-87.30000001192093, 59.0, 126.04370547258243)
-[20:14:59] [Async Chat Thread - #7/INFO]: <Ajlolboi61961> where u at?[m
-[20:15:19] [Async Chat Thread - #7/INFO]: <programming2550> nether[m
-[20:15:24] [Async Chat Thread - #7/INFO]: <programming2550> top of the world[m
-[20:15:28] [Async Chat Thread - #7/INFO]: <programming2550> trying to link up[m
-[20:15:29] [Async Chat Thread - #7/INFO]: <Ajlolboi61961> k omw[m
-[20:15:55] [Server thread/INFO]: programming2550 issued server command: /trigger nc_inOverworld
-[20:15:55] [Server thread/INFO]: [programming2550: Triggered [Get portal coords for the Nether]]
-[20:16:30] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> pog, u made stairs[m
-[20:16:33] [Async Chat Thread - #8/INFO]: <programming2550> ye[m
-[20:16:37] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> thx[m
-[20:16:41] [Async Chat Thread - #8/INFO]: <programming2550> np[m
-[20:16:48] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> i dont see u[m
-[20:16:55] [Async Chat Thread - #8/INFO]: <programming2550> i am very far away[m
-[20:17:01] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> oh why?[m
-[20:17:08] [Async Chat Thread - #8/INFO]: <programming2550> linking up nether portals[m
-[20:17:13] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> ah k i c[m
-[20:17:25] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> i'm at fortress getting rods[m
-[20:17:32] [Async Chat Thread - #8/INFO]: <programming2550> that didnt work[m
-[20:17:37] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> ah :([m
-[20:17:43] [Async Chat Thread - #8/INFO]: <programming2550> ill try later[m
-[20:17:49] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> k[m
-[20:17:53] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> u wanna get rods?[m
-[20:17:56] [Async Chat Thread - #8/INFO]: <programming2550> ye[m
-[20:17:59] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> k follow me[m
-[20:18:00] [Async Chat Thread - #8/INFO]: <programming2550> ender eys[m
-[20:18:04] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> yes sir[m
-[20:18:18] [Async Chat Thread - #8/INFO]: <programming2550> dizzy[m
-[20:18:26] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> yes, still working on it lol[m
-[20:18:27] [Async Chat Thread - #8/INFO]: <programming2550> ah[m
-[20:19:05] [Async Chat Thread - #8/INFO]: <programming2550> danke[m
-[20:19:05] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> oof[m
-[20:19:08] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> np[m
-[20:19:19] [Async Chat Thread - #8/INFO]: <programming2550> ah[m
-[20:19:21] [Server thread/INFO]: programming2550 has made the advancement [A Terrible Fortress]
-[20:19:24] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> kewl[m
-[20:19:26] [Async Chat Thread - #8/INFO]: <programming2550> aay[m
-[20:19:56] [Async Chat Thread - #8/INFO]: <programming2550> just got 37/50 on a physics paper including non-course stuff[m
-[20:20:04] [Async Chat Thread - #8/INFO]: <programming2550> i mostly ignored the non-course stuff[m
-[20:20:06] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> very pog[m
-[20:20:09] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> noice[m
-[20:20:26] [Async Chat Thread - #8/INFO]: <programming2550> epic wither farm[m
-[20:21:10] [Server thread/INFO]: programming2550 was slain by Hoglin
-[20:21:14] [Async Chat Thread - #8/INFO]: <programming2550> oof[m
-[20:21:31] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> i'll stay here[m
-[20:21:35] [Async Chat Thread - #8/INFO]: <programming2550> k danke[m
-[20:21:35] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> by ur grave[m
-[20:22:25] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> here[m
-[20:22:29] [Async Chat Thread - #8/INFO]: <programming2550> can u pass me blocks[m
-[20:22:32] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> i'll drop vlocks[m
-[20:22:46] [Async Chat Thread - #8/INFO]: <programming2550> danke[m
-[20:22:49] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> npnp[m
-[20:23:06] [Async Chat Thread - #8/INFO]: <programming2550> danke[m
-[20:23:09] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> np[m
-[20:23:54] [Server thread/INFO]: programming2550 was shot by Skeleton
-[20:23:57] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> i've ran out of food:([m
-[20:23:59] [Async Chat Thread - #8/INFO]: <programming2550> le oof[m
-[20:24:02] [Async Chat Thread - #8/INFO]: <programming2550> ill get sme[m
-[20:24:13] [Async Chat Thread - #8/INFO]: <Ajlolboi61961> thx[m
-[20:25:48] [Async Chat Thread - #9/INFO]: <programming2550> gtg[m
-[20:25:52] [Async Chat Thread - #9/INFO]: <Ajlolboi61961> food[m
-[20:25:54] [Async Chat Thread - #9/INFO]: <programming2550> soz[m
-[20:26:01] [Async Chat Thread - #9/INFO]: <Ajlolboi61961> k np thx[m
-[20:26:03] [Server thread/INFO]: programming2550 lost connection: Disconnected
-[20:26:03] [Server thread/INFO]: programming2550 left the game
-[20:26:07] [User Authenticator #13/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
-[20:26:08] [Server thread/INFO]: programming2550[/192.168.1.13:60821] logged in with entity id 38086 at ([survival_world_nether]-116.48496220594643, 55.0, 102.30000001192093)
-[20:26:10] [Async Chat Thread - #9/INFO]: <Ajlolboi61961> lmao[m
-[20:26:12] [Server thread/INFO]: programming2550 lost connection: Disconnected
-[20:26:12] [Server thread/INFO]: programming2550 left the game
-[20:26:17] [Async Chat Thread - #9/INFO]: <Ajlolboi61961> i need the foooooood[m
-[20:27:52] [Server thread/INFO]: Gave 64 [Pumpkin Pie] to Ajlolboi61961
-[20:27:59] [Async Chat Thread - #10/INFO]: <Ajlolboi61961> thx man[m
-[20:28:09] [Async Chat Thread - #10/INFO]: <Ajlolboi61961> lol[m
-[20:32:37] [Server thread/INFO]: Ajlolboi61961 was burnt to a crisp whilst fighting Blaze
-[20:36:55] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
-[20:36:55] [Server thread/INFO]: Ajlolboi61961 left the game
-[20:37:42] [User Authenticator #14/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
-[20:37:42] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:50774] logged in with entity id 39104 at ([survival_world_nether]-170.21350197285895, 55.0, 123.73237997727603)
-[20:44:06] [User Authenticator #15/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
-[20:44:06] [Server thread/INFO]: programming2550[/192.168.1.13:61326] logged in with entity id 39617 at ([survival_world_nether]-116.30000001192093, 55.0, 102.30000001192093)
-[20:44:18] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> got 7 blaze rods, lesgooo[m
-[20:44:23] [Async Chat Thread - #11/INFO]: <programming2550> noice[m
-[20:44:27] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> thats enough[m
-[20:44:34] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> to fight the dragon[m
-[20:44:38] [Async Chat Thread - #11/INFO]: <programming2550> where you at[m
-[20:44:43] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> overworld[m
-[20:44:50] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> trya get some pearlds[m
-[20:44:54] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> pearls*[m
-[20:44:55] [Async Chat Thread - #11/INFO]: <programming2550> k[m
-[20:45:11] [Async Chat Thread - #11/INFO]: <programming2550> cooming[m
-[20:45:41] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> u got any pearls[m
-[20:45:49] [Async Chat Thread - #11/INFO]: <programming2550> idk lemme see[m
-[20:45:52] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> k[m
-[20:46:38] [Async Chat Thread - #11/INFO]: <programming2550> nope :( soz[m
-[20:46:41] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> oof[m
-[20:46:52] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> k, time to slaugher some endermen lol[m
-[20:47:02] [Async Chat Thread - #11/INFO]: <programming2550> let the massacre begin[m
-[20:47:12] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> now we wait for night[m
-[20:47:35] [Async Chat Thread - #11/INFO]: <programming2550> the iron golem memorial is a waste of time[m
-[20:47:41] [Server thread/INFO]: Ajlolboi61961 was slain by Enderman
-[20:47:46] [Async Chat Thread - #11/INFO]: <programming2550> ah yes[m
-[20:47:49] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> lmaow[m
-[20:47:57] [Async Chat Thread - #11/INFO]: <programming2550> ill help[m
-[20:48:06] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> k thx[m
-[20:48:28] [Async Chat Thread - #11/INFO]: <programming2550> lost you[m
-[20:48:51] [Async Chat Thread - #11/INFO]: <programming2550> aah[m
-[20:48:54] [Async Chat Thread - #11/INFO]: <programming2550> soz[m
-[20:49:16] [Async Chat Thread - #11/INFO]: <programming2550> noice[m
-[20:49:17] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> no pearls[m
-[20:49:20] [Async Chat Thread - #11/INFO]: <programming2550> oof[m
-[20:49:51] [Async Chat Thread - #11/INFO]: <programming2550> confettii creepers[m
-[20:49:55] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> poggg[m
-[20:50:09] [Server thread/INFO]: Ajlolboi61961 was shot by Skeleton
-[20:50:14] [Server thread/INFO]: programming2550 was shot by Skeleton
-[20:50:25] [Async Chat Thread - #11/INFO]: <programming2550> shall i sleep[m
-[20:50:30] [Async Chat Thread - #11/INFO]: <Ajlolboi61961> yes[m
-[20:50:34] [Async Chat Thread - #11/INFO]: <programming2550> k[m
-[20:50:34] [Server thread/INFO]: Ajlolboi61961 was shot by Skeleton
-[20:51:42] [Async Chat Thread - #12/INFO]: <Ajlolboi61961> u got ur stuff?[m
-[20:51:44] [Async Chat Thread - #12/INFO]: <programming2550> ye[m
-[20:51:48] [Async Chat Thread - #12/INFO]: <Ajlolboi61961> k nice[m
-[20:51:59] [Server thread/INFO]: Ajlolboi61961 was slain by Enderman
-[20:52:07] [Server thread/INFO]: programming2550 was slain by Enderman
-[20:52:20] [Async Chat Thread - #12/INFO]: <programming2550> why are they so overpowerd[m
-[20:52:37] [Async Chat Thread - #12/INFO]: <Ajlolboi61961> cuz hard mode[m
-[20:52:40] [Async Chat Thread - #12/INFO]: <programming2550> ah[m
-[20:54:43] [Async Chat Thread - #13/INFO]: <Ajlolboi61961> u got any?[m
-[20:54:47] [Async Chat Thread - #13/INFO]: <programming2550> nope[m
-[20:55:00] [Async Chat Thread - #13/INFO]: <Ajlolboi61961> the hunt continues[m
-[20:57:52] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> yo[m
-[20:58:02] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> i found a broken baby zombie[m
-[20:58:16] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> on zari's house[m
-[20:58:53] [Async Chat Thread - #14/INFO]: <programming2550> ?[m
-[20:58:57] [Async Chat Thread - #14/INFO]: <programming2550> coming[m
-[20:59:01] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> lmao[m
-[20:59:40] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> hit me[m
-[20:59:46] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> again[m
-[20:59:52] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> k i take damage[m
-[20:59:59] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> but the zombies dont[m
-[21:00:05] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> zombie*[m
-[21:00:09] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> doesn't*[m
-[21:00:42] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
-[21:00:42] [Server thread/INFO]: Ajlolboi61961 left the game
-[21:00:49] [User Authenticator #16/INFO]: UUID of player Ajlolboi61961 is 3c0e9894-0c53-4557-a085-9cca5d32b22e
-[21:00:49] [Server thread/INFO]: Ajlolboi61961[/86.20.144.130:50879] logged in with entity id 42774 at ([survival_world]22.237491552107947, 75.0, 288.63553547411396)
-[21:01:01] [Async Chat Thread - #14/INFO]: <programming2550> hold up[m
-[21:01:16] [Async Chat Thread - #14/INFO]: <programming2550> enderman[m
-[21:01:20] [Async Chat Thread - #14/INFO]: <programming2550> in clubhouse[m
-[21:01:35] [Server thread/INFO]: Ajlolboi61961 was slain by Enderman
-[21:01:39] [Async Chat Thread - #14/INFO]: <programming2550> le oof[m
-[21:01:49] [Async Chat Thread - #14/INFO]: <Ajlolboi61961> :([m
-[21:11:26] [Async Chat Thread - #15/INFO]: <programming2550> i am putting some of my stuff in your chest for a moment[m
-[21:11:33] [Async Chat Thread - #15/INFO]: <Ajlolboi61961> k thats fine[m
-[21:12:10] [Server thread/INFO]: programming2550 tried to swim in lava
-[21:12:16] [Async Chat Thread - #15/INFO]: <Ajlolboi61961> oooooooof[m
-[21:12:20] [Async Chat Thread - #15/INFO]: <programming2550> intentional[m
-[21:12:32] [Async Chat Thread - #15/INFO]: <Ajlolboi61961> oh k[m
-[21:13:02] [Async Chat Thread - #15/INFO]: <programming2550> danke[m
-[21:13:10] [Async Chat Thread - #15/INFO]: <Ajlolboi61961> for what?[m
-[21:13:31] [Async Chat Thread - #15/INFO]: <programming2550> clearing inventory[m
-[21:13:38] [Async Chat Thread - #15/INFO]: <Ajlolboi61961> oh k lol[m
-[21:14:53] [Async Chat Thread - #16/INFO]: <Ajlolboi61961> ok dont sleep[m
-[21:15:00] [Async Chat Thread - #16/INFO]: <programming2550> k[m
-[21:15:18] [Async Chat Thread - #16/INFO]: <Ajlolboi61961> if u see enderman, kill it[m
-[21:15:23] [Async Chat Thread - #16/INFO]: <programming2550> k[m
-[21:17:19] [Async Chat Thread - #17/INFO]: <programming2550> you got flint and steel?[m
-[21:17:26] [Async Chat Thread - #17/INFO]: <Ajlolboi61961> yes[m
-[21:17:32] [Async Chat Thread - #17/INFO]: <programming2550> nvm[m
-[21:17:34] [Async Chat Thread - #17/INFO]: <programming2550> danke tho[m
-[21:17:42] [Async Chat Thread - #17/INFO]: <Ajlolboi61961> lol k[m
-[21:18:19] [Async Chat Thread - #17/INFO]: <Ajlolboi61961> k igtg[m
-[21:18:21] [Async Chat Thread - #17/INFO]: <Ajlolboi61961> cya[m
-[21:18:22] [Async Chat Thread - #17/INFO]: <programming2550> cya[m
-[21:18:24] [Server thread/INFO]: Ajlolboi61961 lost connection: Disconnected
-[21:18:24] [Server thread/INFO]: Ajlolboi61961 left the game
-[21:21:18] [Server thread/INFO]: programming2550 lost connection: Disconnected
-[21:21:18] [Server thread/INFO]: programming2550 left the game
-[21:32:27] [User Authenticator #17/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
-[21:32:27] [Server thread/INFO]: programming2550[/192.168.1.13:61797] logged in with entity id 46016 at ([survival_world]15.541444913118013, 63.0, 354.4126028580013)
-[21:32:55] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
-[21:32:55] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
-[21:33:32] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
-[21:33:32] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
-[21:34:37] [Server thread/INFO]: programming2550 issued server command: /give programming2550 minecraft:chest 20
-[21:34:37] [Server thread/INFO]: [programming2550: Gave 20 [Chest] to programming2550]
-[21:38:29] [Server thread/INFO]: programming2550 issued server command: /give programming2550 minecraft:crafting_table
-[21:38:29] [Server thread/INFO]: [programming2550: Gave 1 [Crafting Table] to programming2550]
-[21:41:33] [Server thread/INFO]: programming2550 issued server command: /give programming2550 minecraft:torch 100
-[21:41:33] [Server thread/INFO]: [programming2550: Gave 100 [Torch] to programming2550]
-[21:43:23] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
-[21:43:23] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
-[21:43:38] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
-[21:43:38] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
-[21:43:41] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
-[21:43:41] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
-[21:43:45] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
-[21:43:45] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
-[21:50:24] [Server thread/INFO]: programming2550 issued server command: /xp add programming2550 10000
-[21:50:24] [Server thread/INFO]: [programming2550: Gave 10000 experience points to programming2550]
-[21:51:25] [Server thread/INFO]: programming2550 issued server command: /icanhasbukkit
-[21:55:38] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
-[21:55:38] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
-[21:56:22] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
-[21:56:22] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
-[21:57:17] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
-[21:57:17] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
-[21:57:34] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
-[21:57:34] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
-[21:57:36] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
-[21:57:36] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
-[21:57:38] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
-[21:57:38] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
-[21:57:40] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
-[21:57:40] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
-[21:57:43] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
-[21:57:43] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
-[21:59:21] [Server thread/INFO]: programming2550 lost connection: Disconnected
-[21:59:21] [Server thread/INFO]: programming2550 left the game
-[21:59:25] [User Authenticator #18/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
-[21:59:26] [Server thread/INFO]: programming2550[/192.168.1.13:62016] logged in with entity id 48511 at ([survival_world]-54.135100264232335, 11.0, 334.5145343782841)
-[21:59:41] [Server thread/INFO]: programming2550 issued server command: /stop
-[21:59:41] [Server thread/INFO]: [programming2550: Stopping the server]
-[21:59:41] [Server thread/INFO]: Stopping server
-[21:59:41] [Server thread/INFO]: [Vivecraft] Disabling Vivecraft-Spigot-Extensions v1.16.5-r1
-[21:59:41] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v1.2.1-SNAPSHOT
-[21:59:41] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[21:59:41] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[21:59:41] [Server thread/INFO]: Saving players
-[21:59:41] [Server thread/INFO]: programming2550 lost connection: Server closed
-[21:59:42] [Server thread/INFO]: programming2550 left the game
-[21:59:42] [Server thread/INFO]: Saving worlds
-[21:59:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_world]'/minecraft:overworld
-[21:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_world): All chunks are saved
-[21:59:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_world_nether]'/minecraft:the_nether
-[21:59:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:59:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_world_the_end]'/minecraft:the_end
-[21:59:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:59:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_world): All chunks are saved
-[21:59:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:59:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:24:32] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:24:35] [main/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, anti ghast grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, more mob heads v2.8.2.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, real time clock v1.1.0.zip, silence mobs v1.1.0.zip, tag v2.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, unlock all recipes v2.0.1.zip, bukkit, graves v2.8.0.zip, confetti creepers v2.2.0.zip, redstone rotation wrench v1.1.1.zip, spectator night vision v1.1.0.zip, terracotta rotation wrench v1.1.1.zip
+[09:24:37] [Worker-Main-4/INFO]: Loaded 7 recipes
+[09:24:38] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[09:24:40] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[09:24:40] [Server thread/INFO]: Loading properties
+[09:24:41] [Server thread/INFO]: This server is running CraftBukkit version 3087-Spigot-9fb885e-a0149bf (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[09:24:41] [Server thread/INFO]: Debug logging is disabled
+[09:24:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:24:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:24:42] [Server thread/INFO]: Default game type: SURVIVAL
+[09:24:42] [Server thread/INFO]: Generating keypair
+[09:24:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:24:42] [Server thread/INFO]: Using epoll channel type
+[09:24:45] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.2.1-SNAPSHOT
+[09:24:45] [Server thread/INFO]: [Vivecraft] Loading Vivecraft-Spigot-Extensions v1.16.5-r1
+[09:24:45] [Server thread/INFO]: Preparing level "survival_world"
+[09:24:45] [Server thread/INFO]: -------- World Settings For [survival_world] --------
+[09:24:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:24:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[09:24:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Mob Spawn Range: 6
+[09:24:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:24:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:24:45] [Server thread/INFO]: Max TNT Explosions: 100
+[09:24:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:24:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:24:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[09:24:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:24:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:24:45] [Server thread/INFO]: View Distance: 5
+[09:24:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:24:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:24:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:24:45] [Server thread/INFO]: -------- World Settings For [survival_world_nether] --------
+[09:24:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:24:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[09:24:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Mob Spawn Range: 6
+[09:24:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:24:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:24:45] [Server thread/INFO]: Max TNT Explosions: 100
+[09:24:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:24:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:24:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[09:24:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:24:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:24:45] [Server thread/INFO]: View Distance: 5
+[09:24:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:24:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:24:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:24:45] [Server thread/INFO]: -------- World Settings For [survival_world_the_end] --------
+[09:24:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:24:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[09:24:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:24:45] [Server thread/INFO]: Mob Spawn Range: 6
+[09:24:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:24:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:24:45] [Server thread/INFO]: Max TNT Explosions: 100
+[09:24:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:24:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:24:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[09:24:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:24:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:24:45] [Server thread/INFO]: View Distance: 5
+[09:24:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:24:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:24:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:24:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:24:48] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:48] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:48] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:48] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:48] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:48] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:48] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[09:24:49] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:50] [Server thread/INFO]: Time elapsed: 4402 ms
+[09:24:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:24:52] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:52] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:52] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:52] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:52] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:52] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:53] [Server thread/INFO]: Preparing spawn area: 83%
+[09:24:53] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[09:24:54] [Worker-Main-5/INFO]: Preparing spawn area: 95%
+[09:24:54] [Worker-Main-7/INFO]: Preparing spawn area: 95%
+[09:24:55] [Worker-Main-5/INFO]: Preparing spawn area: 95%
+[09:24:55] [Worker-Main-7/INFO]: Preparing spawn area: 95%
+[09:24:56] [Worker-Main-7/INFO]: Preparing spawn area: 96%
+[09:24:56] [Worker-Main-5/INFO]: Preparing spawn area: 99%
+[09:24:57] [Server thread/INFO]: Time elapsed: 6643 ms
+[09:24:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:24:57] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:57] [Server thread/INFO]: Preparing spawn area: 0%
+[09:24:58] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[09:24:58] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[09:24:59] [Worker-Main-7/INFO]: Preparing spawn area: 85%
+[09:24:59] [Worker-Main-7/INFO]: Preparing spawn area: 99%
+[09:24:59] [Server thread/INFO]: Time elapsed: 2532 ms
+[09:24:59] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.2.1-SNAPSHOT
+[09:25:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[09:25:02] [Server thread/INFO]: [Geyser-Spigot] 
+[09:25:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.2.1-SNAPSHOT (git-master-4734ce2)
+[09:25:02] [Server thread/INFO]: [Geyser-Spigot] 
+[09:25:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[09:25:14] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[09:25:14] [Server thread/INFO]: [Geyser-Spigot] Done (12.087s)! Run /geyser help for help!
+[09:25:14] [Server thread/INFO]: [Vivecraft] Enabling Vivecraft-Spigot-Extensions v1.16.5-r1
+[09:25:19] [Server thread/ERROR]: [Vivecraft] Vault not found, permissions groups will not be set
+[09:25:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:25:19] [Server thread/INFO]: Done (34.450s)! For help, type "help"
+[09:25:19] [Craft Scheduler Thread - 0/INFO]: [Vivecraft] Version: 1.16.5-r1
+[09:25:19] [Craft Scheduler Thread - 0/INFO]: [Vivecraft] Checking for update...
+[09:25:19] [Craft Scheduler Thread - 0/INFO]: [Vivecraft] VSE is up to date.
+[09:57:09] [User Authenticator #1/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[09:57:10] [Server thread/INFO]: programming2550[/192.168.1.13:50728] logged in with entity id 344 at ([survival_world]-54.135100264232335, 11.0, 334.5145343782841)
+[09:57:28] [Async Chat Thread - #0/INFO]: <programming2550> helo[m
+[09:58:56] [Server thread/INFO]: programming2550 was slain by Enderman
+[09:59:05] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
+[09:59:05] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
+[09:59:14] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
+[09:59:14] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
+[09:59:27] [Server thread/INFO]: programming2550 was slain by Enderman
+[09:59:30] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
+[09:59:30] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
+[09:59:40] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
+[09:59:40] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
+[09:59:45] [Server thread/INFO]: programming2550 was slain by Enderman
+[09:59:48] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
+[09:59:48] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
+[10:00:01] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
+[10:00:01] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
+[10:00:13] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
+[10:00:13] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
+[10:01:20] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
+[10:01:20] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
+[10:13:47] [Server thread/INFO]: programming2550 was shot by Skeleton
+[10:15:30] [Server thread/INFO]: programming2550 lost connection: Disconnected
+[10:15:30] [Server thread/INFO]: programming2550 left the game
+[10:19:21] [User Authenticator #2/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[10:19:21] [Server thread/INFO]: programming2550[/192.168.1.13:51154] logged in with entity id 3493 at ([survival_world]-130.20136899244858, 65.0, 377.88078859922194)
+[10:19:35] [Server thread/INFO]: programming2550 issued server command: /reload
+[10:19:35] [Server thread/INFO]: programming2550: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[10:19:35] [Server thread/INFO]: programming2550: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[10:19:35] [Server thread/INFO]: Debug logging is disabled
+[10:19:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:19:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:19:35] [Server thread/INFO]: -------- World Settings For [survival_world] --------
+[10:19:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:19:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:19:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Mob Spawn Range: 6
+[10:19:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:19:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:19:35] [Server thread/INFO]: Max TNT Explosions: 100
+[10:19:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:19:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:19:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[10:19:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:19:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:19:35] [Server thread/INFO]: View Distance: 5
+[10:19:35] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:19:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:19:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:19:35] [Server thread/INFO]: -------- World Settings For [survival_world_nether] --------
+[10:19:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:19:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:19:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Mob Spawn Range: 6
+[10:19:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:19:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:19:35] [Server thread/INFO]: Max TNT Explosions: 100
+[10:19:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:19:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:19:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[10:19:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:19:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:19:35] [Server thread/INFO]: View Distance: 5
+[10:19:35] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:19:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:19:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:19:35] [Server thread/INFO]: -------- World Settings For [survival_world_the_end] --------
+[10:19:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:19:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:19:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:19:35] [Server thread/INFO]: Mob Spawn Range: 6
+[10:19:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:19:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:19:35] [Server thread/INFO]: Max TNT Explosions: 100
+[10:19:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:19:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:19:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[10:19:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:19:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:19:35] [Server thread/INFO]: View Distance: 5
+[10:19:35] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:19:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:19:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:19:35] [Server thread/INFO]: [Vivecraft] Disabling Vivecraft-Spigot-Extensions v1.16.5-r1
+[10:19:35] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v1.2.1-SNAPSHOT
+[10:19:35] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[10:19:35] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[10:19:35] [Server thread/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, anti ghast grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, more mob heads v2.8.2.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, real time clock v1.1.0.zip, silence mobs v1.1.0.zip, tag v2.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, unlock all recipes v2.0.1.zip, bukkit, graves v2.8.0.zip, confetti creepers v2.2.0.zip, redstone rotation wrench v1.1.1.zip, spectator night vision v1.1.0.zip, terracotta rotation wrench v1.1.1.zip, homes v1.4.1.zip
+[10:19:36] [Server thread/INFO]: Loaded 7 recipes
+[10:19:36] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[10:19:38] [Server thread/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, anti ghast grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, more mob heads v2.8.2.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, real time clock v1.1.0.zip, silence mobs v1.1.0.zip, tag v2.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, unlock all recipes v2.0.1.zip, bukkit, graves v2.8.0.zip, confetti creepers v2.2.0.zip, redstone rotation wrench v1.1.1.zip, spectator night vision v1.1.0.zip, terracotta rotation wrench v1.1.1.zip, homes v1.4.1.zip
+[10:19:38] [Server thread/INFO]: Loaded 7 recipes
+[10:19:38] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[10:19:40] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.2.1-SNAPSHOT
+[10:19:40] [Server thread/INFO]: [Vivecraft] Loading Vivecraft-Spigot-Extensions v1.16.5-r1
+[10:19:40] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.2.1-SNAPSHOT
+[10:19:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:19:40] [Server thread/INFO]: [Geyser-Spigot] 
+[10:19:40] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.2.1-SNAPSHOT (git-master-4734ce2)
+[10:19:40] [Server thread/INFO]: [Geyser-Spigot] 
+[10:19:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:19:45] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[10:19:45] [Server thread/INFO]: [Geyser-Spigot] Done (4.617s)! Run /geyser help for help!
+[10:19:45] [Server thread/INFO]: [Vivecraft] Enabling Vivecraft-Spigot-Extensions v1.16.5-r1
+[10:19:45] [Server thread/ERROR]: [Vivecraft] Vault not found, permissions groups will not be set
+[10:19:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:19:45] [Server thread/INFO]: programming2550: [0;32;1mReload complete.[m
+[10:19:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9839ms or 196 ticks behind
+[10:19:45] [Craft Scheduler Thread - 1/INFO]: [Vivecraft] Version: 1.16.5-r1
+[10:19:45] [Craft Scheduler Thread - 1/INFO]: [Vivecraft] Checking for update...
+[10:19:45] [Craft Scheduler Thread - 1/INFO]: [Vivecraft] VSE is up to date.
+[10:20:48] [Server thread/INFO]: programming2550 lost connection: Disconnected
+[10:20:48] [Server thread/INFO]: programming2550 left the game
+[10:23:34] [User Authenticator #3/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[10:23:35] [Server thread/INFO]: programming2550[/192.168.1.13:51392] logged in with entity id 3634 at ([survival_world]-115.5773763764287, 64.0, 382.86461117995736)
+[10:24:22] [Server thread/INFO]: programming2550 issued server command: /trigger ch_toggle
+[10:24:22] [Server thread/INFO]: [programming2550: Triggered [toggle coordinates hud]]
+[10:25:28] [Server thread/INFO]: programming2550 issued server command: /teleport programming2550 84 63 333
+[10:25:28] [Server thread/INFO]: [programming2550: Teleported programming2550 to 84.5, 63.0, 333.5]
+[10:25:36] [Server thread/INFO]: programming2550 lost connection: Disconnected
+[10:25:36] [Server thread/INFO]: programming2550 left the game
+[10:34:25] [Server thread/INFO]: A player is required to run this command here
+[20:30:43] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[20:30:46] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[20:30:46] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+[20:30:46] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+[20:30:46] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[20:30:46] [Server thread/INFO]: [0;33;22mGeyser-Spigot: [0;37;1mAll commands for Geyser-Spigot[m
+[20:30:46] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+[20:30:46] [Server thread/INFO]: [0;33;22mVivecraft-Spigot-Extensions: [0;37;1mAll commands for Vivecraft-Spigot-Extensions[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/attribute: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/bossbar: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/data: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/datapack: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/experience: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/forceload: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/function: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/geyser: [0;37;1mThe main command for Geyser.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/give: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/list: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/locate: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/locatebiome: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/loot: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/me: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/msg: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/recipe: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/replaceitem: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/restart: [0;37;1mRestarts the server[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/schedule: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/spectate: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/spigot: [0;37;1mSpigot related commands[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/tag: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/team: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/teammsg: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/teleport: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/time: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/tm: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/vive: [0;37;1mVivecraft Spigot Extensions[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/vse: [0;37;1mVivecraft Spigot Extensions[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/w: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+[20:30:46] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+[20:30:49] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:30:49] [Server thread/INFO]: w<--[HERE]
+[20:30:51] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:30:51] [Server thread/INFO]: time<--[HERE]
+[20:31:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[20:31:11] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:31:11] [Server thread/INFO]: tellraw<--[HERE]
+[20:31:15] [Server thread/INFO]: [0;34;1m[[0;37;22mVivecraft[0;34;1m] [0;37;1mDownload Vivecraft at http://www.vivecraft.org/ type '/vive help' to list options[m
+[20:33:12] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[20:54:34] [User Authenticator #4/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[20:54:34] [Server thread/INFO]: programming2550[/192.168.1.13:54331] logged in with entity id 6076 at ([survival_world]80.96373564639529, 63.0, 324.5269828319334)
+[20:57:07] [Server thread/INFO]: programming2550 lost connection: Disconnected
+[20:57:07] [Server thread/INFO]: programming2550 left the game
+[21:12:49] [Server thread/INFO]: com.mojang.authlib.GameProfile@49283a08[id=<null>,name=programming2550,properties={},legacy=false] (/192.168.1.13:54743) lost connection: Disconnected
+[21:13:28] [User Authenticator #5/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[21:13:29] [Server thread/INFO]: programming2550[/192.168.1.13:54771] logged in with entity id 6349 at ([survival_world]76.3874220096305, 63.0, 313.2359196929776)
+[21:13:39] [Server thread/INFO]: programming2550 issued server command: /reload
+[21:13:39] [Server thread/INFO]: programming2550: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[21:13:39] [Server thread/INFO]: programming2550: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[21:13:39] [Server thread/INFO]: Debug logging is disabled
+[21:13:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:13:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:13:39] [Server thread/INFO]: -------- World Settings For [survival_world] --------
+[21:13:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:13:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21:13:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Mob Spawn Range: 6
+[21:13:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:13:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:13:39] [Server thread/INFO]: Max TNT Explosions: 100
+[21:13:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:13:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:13:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[21:13:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:13:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:13:39] [Server thread/INFO]: View Distance: 5
+[21:13:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:13:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:13:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:13:39] [Server thread/INFO]: -------- World Settings For [survival_world_nether] --------
+[21:13:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:13:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21:13:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Mob Spawn Range: 6
+[21:13:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:13:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:13:39] [Server thread/INFO]: Max TNT Explosions: 100
+[21:13:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:13:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:13:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[21:13:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:13:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:13:39] [Server thread/INFO]: View Distance: 5
+[21:13:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:13:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:13:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:13:39] [Server thread/INFO]: -------- World Settings For [survival_world_the_end] --------
+[21:13:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:13:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21:13:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:13:39] [Server thread/INFO]: Mob Spawn Range: 6
+[21:13:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:13:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:13:39] [Server thread/INFO]: Max TNT Explosions: 100
+[21:13:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:13:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:13:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[21:13:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:13:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:13:39] [Server thread/INFO]: View Distance: 5
+[21:13:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:13:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:13:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:13:39] [Server thread/INFO]: [Vivecraft] Disabling Vivecraft-Spigot-Extensions v1.16.5-r1
+[21:13:39] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v1.2.1-SNAPSHOT
+[21:13:39] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[21:13:39] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[21:13:39] [Server thread/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, anti ghast grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, more mob heads v2.8.2.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, real time clock v1.1.0.zip, silence mobs v1.1.0.zip, tag v2.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, unlock all recipes v2.0.1.zip, bukkit, graves v2.8.0.zip, confetti creepers v2.2.0.zip, redstone rotation wrench v1.1.1.zip, spectator night vision v1.1.0.zip, terracotta rotation wrench v1.1.1.zip, homes v1.4.1.zip
+[21:13:39] [Server thread/INFO]: Loaded 7 recipes
+[21:13:40] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[21:13:40] [Server thread/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, anti ghast grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, more mob heads v2.8.2.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, real time clock v1.1.0.zip, silence mobs v1.1.0.zip, tag v2.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, unlock all recipes v2.0.1.zip, bukkit, graves v2.8.0.zip, confetti creepers v2.2.0.zip, redstone rotation wrench v1.1.1.zip, spectator night vision v1.1.0.zip, terracotta rotation wrench v1.1.1.zip, homes v1.4.1.zip
+[21:13:41] [Server thread/INFO]: Loaded 7 recipes
+[21:13:41] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[21:13:42] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.2.1-SNAPSHOT
+[21:13:42] [Server thread/INFO]: [Vivecraft] Loading Vivecraft-Spigot-Extensions v1.16.5-r1
+[21:13:42] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.2.1-SNAPSHOT
+[21:13:42] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:13:42] [Server thread/INFO]: [Geyser-Spigot] 
+[21:13:42] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.2.1-SNAPSHOT (git-master-4734ce2)
+[21:13:42] [Server thread/INFO]: [Geyser-Spigot] 
+[21:13:42] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:13:47] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[21:13:47] [Server thread/INFO]: [Geyser-Spigot] Done (4.503s)! Run /geyser help for help!
+[21:13:47] [Server thread/INFO]: [Vivecraft] Enabling Vivecraft-Spigot-Extensions v1.16.5-r1
+[21:13:47] [Server thread/ERROR]: [Vivecraft] Vault not found, permissions groups will not be set
+[21:13:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:13:47] [Server thread/INFO]: programming2550: [0;32;1mReload complete.[m
+[21:13:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7842ms or 156 ticks behind
+[21:13:47] [Craft Scheduler Thread - 2/INFO]: [Vivecraft] Version: 1.16.5-r1
+[21:13:47] [Craft Scheduler Thread - 2/INFO]: [Vivecraft] Checking for update...
+[21:13:47] [Craft Scheduler Thread - 2/INFO]: [Vivecraft] VSE is up to date.
+[21:14:52] [Server thread/INFO]: programming2550 issued server command: /time set
+[21:14:56] [Server thread/INFO]: programming2550 issued server command: /time set night
+[21:14:56] [Server thread/INFO]: [programming2550: Set the time to 13000]
+[21:16:01] [Server thread/INFO]: programming2550 issued server command: /tp programming2550 -84 63 333
+[21:16:01] [Server thread/INFO]: [programming2550: Teleported programming2550 to -83.5, 63.0, 333.5]
+[21:16:08] [Server thread/INFO]: programming2550 issued server command: /trigger home
+[21:16:08] [Server thread/INFO]: [programming2550: Triggered [Home]]
+[21:16:40] [Server thread/INFO]: programming2550 issued server command: /trigger ch_toggle set
+[21:16:54] [Server thread/INFO]: programming2550 issued server command: /trigger ch_toggle
+[21:16:54] [Server thread/INFO]: [programming2550: Triggered [toggle coordinates hud]]
+[21:18:08] [Server thread/INFO]: programming2550 was slain by Zombie
+[21:31:00] [Server thread/INFO]: programming2550 was slain by Zombie
+[21:31:17] [Async Chat Thread - #1/INFO]: <programming2550> LOL[m
+[21:34:14] [Server thread/INFO]: programming2550 lost connection: Disconnected
+[21:34:14] [Server thread/INFO]: programming2550 left the game
+[21:34:43] [User Authenticator #6/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[21:34:44] [Server thread/INFO]: programming2550[/192.168.1.13:54916] logged in with entity id 7425 at ([survival_world]207.810691455207, 11.0, 334.30000001192093)
+[21:38:48] [Server thread/INFO]: programming2550 issued server command: /xp set programming2550 1000
+[21:38:57] [Server thread/INFO]: programming2550 issued server command: /xp add programming2550 1000
+[21:38:57] [Server thread/INFO]: [programming2550: Gave 1000 experience points to programming2550]
+[21:39:06] [Server thread/INFO]: programming2550 issued server command: /xp add programming2550 100
+[21:39:06] [Server thread/INFO]: [programming2550: Gave 100 experience points to programming2550]
+[21:39:09] [Server thread/INFO]: programming2550 issued server command: /xp add programming2550 100
+[21:39:09] [Server thread/INFO]: [programming2550: Gave 100 experience points to programming2550]
+[21:39:15] [Server thread/INFO]: programming2550 issued server command: /xp add programming2550 900
+[21:39:15] [Server thread/INFO]: [programming2550: Gave 900 experience points to programming2550]
+[21:42:57] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
+[21:42:57] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
+[21:43:10] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
+[21:43:10] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
+[21:43:15] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
+[21:43:15] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
+[21:43:16] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
+[21:43:16] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
+[21:43:19] [Server thread/INFO]: programming2550 lost connection: Disconnected
+[21:43:19] [Server thread/INFO]: programming2550 left the game
+[21:47:02] [User Authenticator #7/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[21:47:02] [Server thread/INFO]: programming2550[/192.168.1.13:55053] logged in with entity id 8942 at ([survival_world]342.30171075458134, 11.0, 334.5289923086707)
+[21:47:16] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
+[21:47:16] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
+[21:47:23] [Server thread/INFO]: programming2550 lost connection: Disconnected
+[21:47:23] [Server thread/INFO]: programming2550 left the game
+[21:48:43] [User Authenticator #8/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[21:48:44] [Server thread/INFO]: programming2550[/192.168.1.13:55113] logged in with entity id 8991 at ([survival_world]366.0858977560969, 12.679258910613196, 328.09516150286356)
+[21:49:08] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
+[21:49:08] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
+[21:49:25] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
+[21:49:25] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
+[21:49:41] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
+[21:49:41] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
+[21:51:19] [Server thread/INFO]: programming2550 issued server command: /gamemode spectator
+[21:51:19] [Server thread/INFO]: [programming2550: Set own game mode to Spectator Mode]
+[21:51:47] [Server thread/INFO]: programming2550 issued server command: /gamemode survival
+[21:51:47] [Server thread/INFO]: [programming2550: Set own game mode to Survival Mode]
+[21:52:21] [Server thread/INFO]: programming2550 issued server command: /locate diamond
+[21:55:15] [Server thread/INFO]: programming2550 lost connection: Disconnected
+[21:55:15] [Server thread/INFO]: programming2550 left the game
+[21:57:04] [User Authenticator #9/INFO]: UUID of player programming2550 is c92e9ed2-0dd1-471f-853e-19bf2197dddc
+[21:57:04] [Server thread/INFO]: programming2550[/192.168.1.13:55267] logged in with entity id 10326 at ([survival_world]-54.40955749642826, 11.5625, 332.30000001192093)
+[21:57:20] [Server thread/INFO]: programming2550 issued server command: /stop
+[21:57:20] [Server thread/INFO]: [programming2550: Stopping the server]
+[21:57:20] [Server thread/INFO]: Stopping server
+[21:57:20] [Server thread/INFO]: [Vivecraft] Disabling Vivecraft-Spigot-Extensions v1.16.5-r1
+[21:57:20] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v1.2.1-SNAPSHOT
+[21:57:20] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[21:57:20] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[21:57:20] [Server thread/INFO]: Saving players
+[21:57:20] [Server thread/INFO]: programming2550 lost connection: Server closed
+[21:57:20] [Server thread/INFO]: programming2550 left the game
+[21:57:20] [Server thread/INFO]: Saving worlds
+[21:57:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_world]'/minecraft:overworld
+[21:57:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_world): All chunks are saved
+[21:57:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_world_nether]'/minecraft:the_nether
+[21:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:57:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival_world_the_end]'/minecraft:the_end
+[21:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival_world): All chunks are saved
+[21:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
