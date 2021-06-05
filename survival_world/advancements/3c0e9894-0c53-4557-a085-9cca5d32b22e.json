@@ -533,6 +533,12 @@
     },
     "done": true
   },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2021-06-03 14:29:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
@@ -1097,6 +1103,12 @@
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2021-06-01 15:22:55 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
@@ -1257,7 +1269,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2021-04-06 18:35:44 +0100",
       "minecraft:soul_sand_valley": "2021-04-16 16:48:54 +0100",
-      "minecraft:nether_wastes": "2021-05-29 19:07:07 +0100"
+      "minecraft:nether_wastes": "2021-05-29 19:07:07 +0100",
+      "minecraft:warped_forest": "2021-05-31 10:59:37 +0100"
     },
     "done": false
   },
@@ -2174,6 +2187,12 @@
     },
     "done": true
   },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2021-06-01 15:31:16 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
@@ -2363,6 +2382,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2021-06-03 16:25:22 +0100"
     },
     "done": true
   },
@@ -2753,6 +2778,12 @@
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2021-06-02 18:28:17 +0100"
     },
     "done": true
   },
@@ -3220,13 +3251,17 @@
       "minecraft:skeleton": "2021-04-06 17:39:54 +0100",
       "minecraft:ghast": "2021-05-29 19:03:41 +0100",
       "minecraft:hoglin": "2021-04-11 17:34:06 +0100",
+      "minecraft:magma_cube": "2021-05-31 13:18:24 +0100",
       "minecraft:spider": "2021-04-07 11:59:15 +0100",
       "minecraft:creeper": "2021-04-11 20:02:06 +0100",
       "minecraft:zombified_piglin": "2021-04-10 15:53:53 +0100",
+      "minecraft:witch": "2021-06-02 12:45:20 +0100",
       "minecraft:wither_skeleton": "2021-05-29 19:21:08 +0100",
+      "minecraft:ender_dragon": "2021-06-03 14:29:47 +0100",
       "minecraft:piglin": "2021-04-12 13:00:51 +0100",
       "minecraft:enderman": "2021-04-10 16:07:42 +0100",
       "minecraft:silverfish": "2021-04-13 18:39:47 +0100",
+      "minecraft:endermite": "2021-06-04 13:40:09 +0100",
       "minecraft:zombie": "2021-04-06 16:23:48 +0100",
       "minecraft:drowned": "2021-04-08 13:23:28 +0100",
       "minecraft:zombie_villager": "2021-04-08 19:48:25 +0100"
@@ -3254,6 +3289,12 @@
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2021-06-01 19:08:13 +0100"
     },
     "done": true
   },
@@ -3435,6 +3476,12 @@
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2021-06-03 14:20:29 +0100"
     },
     "done": true
   },
@@ -3827,9 +3874,11 @@
       "minecraft:forest": "2021-04-06 16:16:19 +0100",
       "minecraft:mountains": "2021-04-06 17:19:40 +0100",
       "minecraft:taiga": "2021-05-29 14:11:13 +0100",
+      "minecraft:taiga_hills": "2021-06-03 13:21:35 +0100",
       "minecraft:birch_forest": "2021-04-06 16:17:58 +0100",
       "minecraft:warm_ocean": "2021-04-06 17:20:01 +0100",
       "minecraft:deep_lukewarm_ocean": "2021-04-08 13:20:27 +0100",
+      "minecraft:savanna_plateau": "2021-06-03 12:42:34 +0100",
       "minecraft:beach": "2021-04-06 16:39:41 +0100",
       "minecraft:dark_forest": "2021-04-06 17:34:45 +0100",
       "minecraft:river": "2021-04-06 17:19:25 +0100",
@@ -3838,6 +3887,8 @@
       "minecraft:wooded_mountains": "2021-04-13 13:50:35 +0100",
       "minecraft:wooded_hills": "2021-04-06 16:17:48 +0100",
       "minecraft:stone_shore": "2021-04-13 13:49:27 +0100",
+      "minecraft:swamp": "2021-06-03 12:48:25 +0100",
+      "minecraft:savanna": "2021-06-02 12:16:33 +0100",
       "minecraft:plains": "2021-04-13 14:36:27 +0100"
     },
     "done": false
@@ -4999,6 +5050,12 @@
     },
     "done": true
   },
+  "vanillatweaks:homes": {
+    "criteria": {
+      "tick": "2021-05-31 10:51:50 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
@@ -5320,6 +5377,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2021-04-06 16:16:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2021-06-03 14:20:29 +0100"
     },
     "done": true
   },
